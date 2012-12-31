@@ -45,13 +45,14 @@ Faça o login no site do [registro.br](http://www.registro.br) e clique no domí
 
 1. Marque a opção **Utilizar os servidores do Registro.br**
 2. Clique em **Salvar & Editar DNS**
-3. Agora clique em **+Record** para *setar* o DNS do seu projeto no github.
+3. 2. Clique em **Modo Avançado**
+4. Agora clique em **+Record** para *setar* o DNS do seu projeto no github.
 
 #### Edição de Zona ####
-4. Deixe o campo de **subdomínios** vazio.
-5. No campo **Tipo** selecione **A**.
-6. No campo **Dados** coloque o seguinte endereço: **204.232.175.78**
-7. Clique em **Salvar**
+1. Deixe o campo de **subdomínios** vazio.
+2. No campo **Tipo** selecione **A**.
+3. No campo **Dados** coloque o seguinte endereço: **204.232.175.78**
+4. Clique em **Salvar**
 
 Agora precisamos colocar o subdomínio `www` para funcionar também.
 
