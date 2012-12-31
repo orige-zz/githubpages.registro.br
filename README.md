@@ -39,7 +39,7 @@ Para isso crie um arquivo chamado `CNAME` nesse mesmo branch e coloque dentro de
 
 Ok. Pela parte do GitHub já está tudo pronto. Agora falta apenas as configurações de DNS no **registro.br**.
 
-## No registro.br ##
+# No registro.br #
 
 Faça o login no site do [registro.br](http://www.registro.br) e clique no domínio registrado para seu projeto.
 
@@ -52,15 +52,14 @@ Faça o login no site do [registro.br](http://www.registro.br) e clique no domí
 1. Deixe o campo de **subdomínios** vazio.
 2. No campo **Tipo** selecione **A**.
 3. No campo **Dados** coloque o seguinte endereço: **204.232.175.78**
-4. Clique em **Salvar**
+4. Clique em **+Record** para abrir um novo cadastro.
 
 Agora precisamos colocar o subdomínio `www` para funcionar também.
 
-1. Clique novamente em **+Record**.
-2. No campo subdomínio coloque **www**.
-3. No campo **Tipo** escolha **CNAME**
-4. No campo **Dados** coloque o endereço utilizado no arquivo `CNAME` de seu projeto: **seuprojeto.com.br**.
-5. Clique em **Salvar**.
+1. No campo subdomínio coloque **www**.
+2. No campo **Tipo** escolha **CNAME**
+3. No campo **Dados** coloque o endereço utilizado no arquivo `CNAME` de seu projeto: **seuprojeto.com.br**.
+4. Clique em **Salvar**.
 
 **Pronto!**
 
