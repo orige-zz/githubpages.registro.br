@@ -45,24 +45,24 @@ Faça o login no site do [registro.br](http://www.registro.br) e clique no domí
 
 1. Marque a opção **Utilizar os servidores do Registro.br**
 2. Clique em **Salvar & Editar DNS**
-3. 2. Clique em **Modo Avançado**
+3. Clique em **Modo Avançado**
 4. Agora clique em **+Record** para *setar* o DNS do seu projeto no github.
 
 #### Edição de Zona ####
 
 O Github agora disponibiliza dois endereços para seus servidores DNS. É preciso cadastrar os dois para o mesmo domínio.
-1. Deixe o campo de **subdomínios** vazio.
-2. No campo **Tipo** selecione **A**.
-3. No campo **Dados** coloque o seguinte endereço: **192.30.252.153**
+1. Deixe o campo de **subdomínios** vazio.  
+2. No campo **Tipo** selecione **A**.  
+3. No campo **Dados** coloque o seguinte endereço: **192.30.252.153**  
 4. Clique em **+Record** para abrir um novo cadastro.
 
-Repita a operação cadastrando o segundo ip **192.30.252.153**.
+Repita a operação cadastrando o segundo ip **192.30.252.154**.
 
 Agora precisamos colocar o subdomínio `www` para funcionar também.
 
-1. No campo subdomínio coloque **www**.
-2. No campo **Tipo** escolha **CNAME**
-3. No campo **Dados** coloque o endereço utilizado no arquivo `CNAME` de seu projeto: **seuprojeto.com.br**.
+1. No campo subdomínio coloque **www**.    
+2. No campo **Tipo** escolha **CNAME**  
+3. No campo **Dados** coloque o endereço utilizado no arquivo `CNAME` de seu projeto: **seuprojeto.com.br**.  
 4. Clique em **Salvar**.
 
 **Pronto!**
