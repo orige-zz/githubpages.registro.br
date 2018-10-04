@@ -53,16 +53,19 @@ O Github agora disponibiliza dois endereços para seus servidores DNS. É precis
 
 1. Deixe o campo de **subdomínios** vazio.
 2. No campo **Tipo** selecione **A**.
-3. No campo **Dados** coloque o seguinte endereço: **192.30.252.153**
+3. No campo **Dados** coloque o seguinte endereço: **185.199.108.153**
 4. Clique em **+Record** para abrir um novo cadastro.
+5. Repita a operação cadastrando os seguintes IPs:
 
-Repita a operação cadastrando o segundo ip **192.30.252.154**.
+- **185.199.109.153**
+- **185.199.110.153**
+- **185.199.111.153**
 
 Agora precisamos colocar o subdomínio `www` para funcionar também.
 
 1. No campo subdomínio coloque **www**.
 2. No campo **Tipo** escolha **CNAME**
-3. No campo **Dados** coloque o endereço utilizado no arquivo `CNAME` de seu projeto: **seuprojeto.com.br**.
+3. No campo **Dados** coloque o endereço da página de githib: **seuprojeto.github.io**.
 4. Clique em **Salvar**.
 
 **Pronto!**
