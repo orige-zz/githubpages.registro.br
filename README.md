@@ -53,10 +53,14 @@ Faça o login no site do [registro.br](http://www.registro.br) e clique no domí
 O Github agora disponibiliza dois endereços para seus servidores DNS. É preciso cadastrar os dois para o mesmo domínio.
 1. Deixe o campo de **subdomínios** vazio.  
 2. No campo **Tipo** selecione **A**.  
-3. No campo **Dados** coloque o seguinte endereço: **192.30.252.153**  
+3. No campo **Dados** coloque o seguinte endereço: **	185.199.108.153 **  
 4. Clique em **+Record** para abrir um novo cadastro.
 
-Repita a operação cadastrando o segundo ip **192.30.252.154**.
+Repita a operação cadastrando o segundo ip **185.199.109.153**.
+
+Repita a operação cadastrando o terceiro ip **185.199.110.153**.
+
+Repita a operação cadastrando o quarto ip **185.199.111.153**.
 
 Agora precisamos colocar o subdomínio `www` para funcionar também.
 
